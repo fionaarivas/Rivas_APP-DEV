@@ -64,7 +64,7 @@ td {
 <h2>MEASURE CONVERSION CHART – LENGTHS (UK)</h2>
 
 <?php
-/* METRIC */
+
 ?>
 
 <table>
@@ -76,7 +76,7 @@ td {
 </table>
 
 <?php
-/* IMPERIAL */
+
 ?>
 
 <table>
@@ -117,4 +117,4 @@ td {
 
 </body>
 </html>
-``
+
