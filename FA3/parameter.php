@@ -39,7 +39,7 @@
 </head>
 <body>
 
-<h2>PHP User Defined Functions</h2>
+<h2>User Defined Functions</h2>
 
 <?php 
 
