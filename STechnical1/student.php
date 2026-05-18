@@ -74,7 +74,6 @@ $schoolYear = "2025-2026";
 $fullName = "Fiona Nicole Rivas";
 $nickname = "fionaa";
 $gender = "Female";
-$dateOfBirth = " April 22, 2005";
 $placeOfBirth = "Bulacan, Calumpit";
 $civilStatus = "Single";
 
@@ -137,6 +136,7 @@ $religion = "Catholic";
         </div>
     </div>
 
+<<<<<<< HEAD
    <div class="section-title">Student Information</div>
 
 <div class="row">
@@ -173,6 +173,35 @@ $religion = "Catholic";
     </div>
 </div>
 
+=======
+    <div class="section-title">Student Information</div>
+    <div class="row">
+        <div class="field">
+            <div class="label">Full Name</div>
+            <div class="answer"><?php echo strtoupper($fullName); ?></div>
+        </div>
+        <div class="field">
+            <div class="label">Nickname</div>
+            <div class="answer"><?php echo ucfirst($nickname); ?></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="field">
+            <div class="label">Gender</div>
+            <div class="answer"><?php echo $gender; ?></div>
+        </div>
+        <div class="field">
+            <div class="label">Place of Birth</div>
+            <div class="answer"><?php echo $placeOfBirth; ?></div>
+        </div>
+        <div class="field">
+            <div class="label">Civil Status</div>
+            <div class="answer"><?php echo $civilStatus; ?></div>
+        </div>
+    </div>
+
+>>>>>>> 5e0e6686d520187784f7d370ef138eb05b970078
     <div class="section-title">Previous School Information</div>
     <div class="row">
         <div class="field">
