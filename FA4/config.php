@@ -1,4 +1,6 @@
 <?php
-define("WEBSITE_TITLE", "Five Short Story Webpages");
-define("AUTHOR_NAME", "Railey Reyes");
+
+define("WEBSITE_TITLE", "The Stories We Carry");
+define("AUTHOR_NAME", "Fiona Rivas");
+
 ?>
