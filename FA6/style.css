@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8a5bd;
+    color: #2b120e;
+}
+
+.page {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ffd1df, #f79ab8);
+    position: relative;
+    overflow: hidden;
+}
+
+.page::before {
+    position: absolute;
+    font-size: 180px;
+    opacity: 0.08;
+    top: 120px;
+    right: 120px;
+}
+
+.page::after {
+    position: absolute;
+    font-size: 130px;
+    opacity: 0.10;
+    bottom: 60px;
+    left: 80px;
+}
+
+
+.navbar {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 90px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2b120e;
+    letter-spacing: 2px;
+}
+
+.logo::before {
+    content: "🐕 ";
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2b120e;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+
+.navbar a:hover {
+    background-color: #fff7fb;
+    color: #7b3a2d;
+}
+
+
+.home-section {
+    position: relative;
+    z-index: 2;
+    min-height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 90px;
+    text-align: center;
+}
+
+.home-card {
+    background-color: rgba(255, 247, 251, 0.75);
+    padding: 55px 70px;
+    border-radius: 30px;
+    box-shadow: 0 15px 35px rgba(89, 38, 31, 0.18);
+    max-width: 850px;
+}
+
+.paw-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.home-section h1 {
+    font-size: 56px;
+    color: #2b120e;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 18px;
+    color: #3d201a;
+    max-width: 600px;
+    line-height: 1.6;
+    margin: 0 auto 35px;
+}
+
+.start-btn {
+    display: inline-block;
+    background-color: #5a2d22;
+    color: white;
+    padding: 14px 48px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.start-btn:hover {
+    background-color: #3b231c;
+}
+
+
+.register-section {
+    position: relative;
+    z-index: 2;
+    min-height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 40px 90px 70px;
+}
+
+.register-text {
+    width: 45%;
+}
+
+.small-title {
+    display: inline-block;
+    background-color: #fff7fb;
+    color: #7b3a2d;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.register-text h1 {
+    font-size: 54px;
+    color: #2b120e;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.register-text p {
+    color: #3d201a;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 480px;
+}
+
+.form-card {
+    width: 430px;
+    background-color: #fff7fb;
+    padding: 32px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(89, 38, 31, 0.18);
+}
+
+.form-card h2 {
+    text-align: center;
+    color: #2b120e;
+    margin-bottom: 22px;
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: #2b120e;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #e58aa3;
+    border-radius: 12px;
+    outline: none;
+    background-color: white;
+}
+
+input:focus {
+    border-color: #7a3b2e;
+    box-shadow: 0 0 0 3px rgba(122, 59, 46, 0.10);
+}
+
+button {
+    width: 100%;
+    margin-top: 24px;
+    padding: 13px;
+    background-color: #5a2d22;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #3b231c;
+}
+
+.view-link {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #5a2d22;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.view-link:hover {
+    color: #c45173;
+}
+
+.message {
+    background-color: #e8ffe8;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+
+.records-section {
+    position: relative;
+    z-index: 2;
+    padding: 35px 90px 70px;
+    text-align: center;
+}
+
+.records-section h1 {
+    font-size: 46px;
+    color: #2b120e;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 17px;
+    color: #4d2d26;
+    margin-bottom: 35px;
+}
+
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    text-align: left;
+}
+
+.record-card {
+    background-color: #fff7fb;
+    border-radius: 22px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(89, 38, 31, 0.12);
+    border: 1px solid #ffd1df;
+}
+
+.record-card h3 {
+    color: #5a2d22;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.record-card p {
+    margin: 7px 0;
+    font-size: 15px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 35px;
+    background-color: #5a2d22;
+    color: white;
+    padding: 13px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-btn:hover {
+    background-color: #3b231c;
+}
+
+
+@media (max-width: 900px) {
+    .navbar {
+        padding: 25px 35px;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .navbar ul {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home-section {
+        padding: 35px;
+    }
+
+    .home-card {
+        padding: 40px 25px;
+    }
+
+    .home-section h1 {
+        font-size: 38px;
+    }
+
+    .register-section {
+        flex-direction: column;
+        padding: 35px;
+        gap: 30px;
+    }
+
+    .register-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .register-text h1 {
+        font-size: 38px;
+    }
+
+    .register-text p {
+        margin: auto;
+    }
+
+    .form-card {
+        width: 100%;
+        max-width: 430px;
+    }
+
+    .records-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .records-section {
+        padding: 35px;
+    }
+}
